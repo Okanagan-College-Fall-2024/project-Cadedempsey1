@@ -1,10 +1,8 @@
 {
-  "bananas_and_dragonfruits": [
-    "Banana and dragonfruit smoothie: Blend bananas and dragonfruits together with some milk and honey.",
-    "Banana and dragonfruit salad: Mix sliced bananas and dragonfruits together with some lemon juice and honey.",
-    "Banana and dragonfruit bowl: Layer sliced bananas and dragonfruits with yogurt and granola."
-  ],
-  "equations": {
-    "2x + 3 = 7": "x = 2 (Subtract 3 from both sides, then divide by 2)."
-  }
+  "case_study": "A tech company faced a cybersecurity breach where customer data was accessed. The breach occurred due to an unpatched vulnerability in their web application firewall. After the incident, the company implemented stricter security protocols, including regular vulnerability scans, employee training, and a bug bounty program.",
+  "questions": [
+    "What caused the cybersecurity breach?",
+    "What steps did the company take after the breach?",
+    "How can similar incidents be prevented in the future?"
+  ]
 }
