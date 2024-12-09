@@ -2,17 +2,12 @@ import torch
 import json
 from transformers import AutoModelForCausalLM, AutoTokenizer, pipeline
 
-# Load JSON data
-with open("data.json", "r") as f:
-    data = json.load(f)
+# Load case study and questions from JSON
+with open("case_study.json", "r") as f:
+    case_data = json.load(f)
 
-# Define a helper function to fetch answers from JSON
-def fetch_answer_from_json(question, data):
-    if "bananas" in question and "dragonfruits" in question:
-        return "\n".join(data.get("bananas_and_dragonfruits", []))
-    if "2x + 3 = 7" in question:
-        return data.get("equations", {}).get("2x + 3 = 7", "I don't know the answer.")
-    return "I couldn't find an answer in the JSON file."
+case_study = case_data["case_study"]
+questions = case_data["questions"]
 
 torch.random.manual_seed(0)
 
@@ -39,20 +34,14 @@ generation_args = {
     "do_sample": False,
 }
 
-# Simulated conversation
-messages = [
-    {"role": "system", "content": "You are a helpful AI assistant."},
-    {"role": "user", "content": "Can you provide ways to eat combinations of bananas and dragonfruits?"},
-]
+# Format the input for the model
+conversation = [{"role": "system", "content": "You are a helpful AI assistant."}]
+conversation.append({"role": "user", "content": f"Here is a case study: {case_study}"})
 
-# Process user question
-question = messages[-1]["content"]
-answer_from_json = fetch_answer_from_json(question, data)
-
-# Append the fetched answer to the model's context
-if answer_from_json:
-    messages.append({"role": "assistant", "content": answer_from_json})
-
-# Generate response using the pipeline
-output = pipe(messages, **generation_args)
-print(output[0]["generated_text"])
+# Generate answers for each question
+for question in questions:
+    conversation.append({"role": "user", "content": question})
+    output = pipe(conversation, **generation_args)
+    answer = output[0]["generated_text"]
+    print(f"Question: {question}\nAnswer: {answer}\n")
+    conversation.append({"role": "assistant", "content": answer})
