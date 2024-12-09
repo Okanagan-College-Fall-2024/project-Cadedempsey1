@@ -3,7 +3,7 @@ import json
 from transformers import AutoModelForCausalLM, AutoTokenizer, pipeline
 
 # Load case study and questions from JSON
-with open("case_study.json", "r") as f:
+with open("data.json", "r") as f:
     case_data = json.load(f)
 
 case_study = case_data["case_study"]
