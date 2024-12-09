@@ -2,12 +2,9 @@ import torch
 import json
 from transformers import AutoModelForCausalLM, AutoTokenizer, pipeline
 
-# Load case study and questions from JSON
-with open("data.json", "r") as f:
+# Load multiple case studies from JSON
+with open("case_study.json", "r") as f:
     case_data = json.load(f)
-
-case_study = case_data["case_study"]
-questions = case_data["questions"]
 
 torch.random.manual_seed(0)
 
@@ -34,14 +31,18 @@ generation_args = {
     "do_sample": False,
 }
 
-# Format the input for the model
-conversation = [{"role": "system", "content": "You are a helpful AI assistant."}]
-conversation.append({"role": "user", "content": f"Here is a case study: {case_study}"})
+# Iterate over case studies
+for case_study in case_data["case_studies"]:
+    print(f"\n### Case Study: {case_study['title']} ###")
+    print(case_study["content"])
+    print("\nQuestions and Answers:")
 
-# Generate answers for each question
-for question in questions:
-    conversation.append({"role": "user", "content": question})
-    output = pipe(conversation, **generation_args)
-    answer = output[0]["generated_text"]
-    print(f"Question: {question}\nAnswer: {answer}\n")
-    conversation.append({"role": "assistant", "content": answer})
+    conversation = [{"role": "system", "content": "You are a helpful AI assistant."}]
+    conversation.append({"role": "user", "content": f"Case Study: {case_study['content']}"})
+
+    for question in case_study["questions"]:
+        conversation.append({"role": "user", "content": question})
+        output = pipe(conversation, **generation_args)
+        answer = output[0]["generated_text"]
+        print(f"Q: {question}\nA: {answer}\n")
+        conversation.append({"role": "assistant", "content": answer})
