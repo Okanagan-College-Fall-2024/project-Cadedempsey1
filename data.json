@@ -1,8 +1,22 @@
 {
-  "case_study": "A tech company faced a cybersecurity breach where customer data was accessed. The breach occurred due to an unpatched vulnerability in their web application firewall. After the incident, the company implemented stricter security protocols, including regular vulnerability scans, employee training, and a bug bounty program.",
-  "questions": [
-    "What caused the cybersecurity breach?",
-    "What steps did the company take after the breach?",
-    "How can similar incidents be prevented in the future?"
+  "case_studies": [
+    {
+      "title": "Cybersecurity Breach",
+      "content": "A tech company faced a cybersecurity breach where customer data was accessed. The breach occurred due to an unpatched vulnerability in their web application firewall. After the incident, the company implemented stricter security protocols, including regular vulnerability scans, employee training, and a bug bounty program.",
+      "questions": [
+        "What caused the cybersecurity breach?",
+        "What steps did the company take after the breach?",
+        "How can similar incidents be prevented in the future?"
+      ]
+    },
+    {
+      "title": "AI Implementation in Healthcare",
+      "content": "A hospital implemented an AI-based diagnostic tool to improve accuracy in detecting diseases. The tool used patient data to provide suggestions for potential diagnoses. While the implementation improved diagnostic speed, it raised concerns about patient privacy and algorithm bias.",
+      "questions": [
+        "What benefits did the AI tool bring to the hospital?",
+        "What concerns were raised during its implementation?",
+        "How can these concerns be mitigated?"
+      ]
+    }
   ]
 }
