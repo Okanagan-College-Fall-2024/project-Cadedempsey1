@@ -1,0 +1,10 @@
+{
+  "bananas_and_dragonfruits": [
+    "Banana and dragonfruit smoothie: Blend bananas and dragonfruits together with some milk and honey.",
+    "Banana and dragonfruit salad: Mix sliced bananas and dragonfruits together with some lemon juice and honey.",
+    "Banana and dragonfruit bowl: Layer sliced bananas and dragonfruits with yogurt and granola."
+  ],
+  "equations": {
+    "2x + 3 = 7": "x = 2 (Subtract 3 from both sides, then divide by 2)."
+  }
+}
