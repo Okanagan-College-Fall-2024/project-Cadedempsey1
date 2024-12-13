@@ -10,13 +10,13 @@ torch.random.manual_seed(0)
 
 # Load model and tokenizer
 model = AutoModelForCausalLM.from_pretrained(
-    "microsoft/Phi-3-mini-128k-instruct",
+    "microsoft/Phi-3-medium-128k-instruct",
     device_map="cpu",
     torch_dtype="auto",
     trust_remote_code=True,
 )
 
-tokenizer = AutoTokenizer.from_pretrained("microsoft/Phi-3-mini-128k-instruct")
+tokenizer = AutoTokenizer.from_pretrained("microsoft/Phi-3-medium-128k-instruct")
 
 pipe = pipeline(
     "text-generation",
@@ -31,11 +31,16 @@ generation_args = {
     "do_sample": False,
 }
 
+# Prepare a list to store the results
+results = []
+
 # Iterate over case studies
 for case_study in case_data["case_studies"]:
-    print(f"\n### Case Study: {case_study['title']} ###")
-    print(case_study["content"])
-    print("\nQuestions and Answers:")
+    case_result = {
+        "title": case_study["title"],
+        "content": case_study["content"],
+        "questions_and_answers": []
+    }
 
     conversation = [{"role": "system", "content": "You are a helpful AI assistant."}]
     conversation.append({"role": "user", "content": f"Case Study: {case_study['content']}"})
@@ -44,5 +49,17 @@ for case_study in case_data["case_studies"]:
         conversation.append({"role": "user", "content": question})
         output = pipe(conversation, **generation_args)
         answer = output[0]["generated_text"]
-        print(f"Q: {question}\nA: {answer}\n")
+
+        # Add question and answer to the case_result
+        case_result["questions_and_answers"].append({
+            "question": question,
+            "answer": answer
+        })
+
         conversation.append({"role": "assistant", "content": answer})
+
+    results.append(case_result)
+
+# Save the results to a JSON file
+with open("results.json", "w") as f:
+    json.dump(results, f, indent=4)
