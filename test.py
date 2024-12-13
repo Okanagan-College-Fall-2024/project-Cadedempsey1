@@ -59,7 +59,10 @@ for case_study in case_data["case_studies"]:
         conversation.append({"role": "assistant", "content": answer})
 
     results.append(case_result)
+    print(f"Completed case study: {case_study['title']}")
 
 # Save the results to a JSON file
 with open("results.json", "w") as f:
     json.dump(results, f, indent=4)
+
+print("All case studies completed and results saved.")
