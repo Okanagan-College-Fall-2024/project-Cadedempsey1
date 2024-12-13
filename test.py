@@ -10,13 +10,13 @@ torch.random.manual_seed(0)
 
 # Load model and tokenizer
 model = AutoModelForCausalLM.from_pretrained(
-    "microsoft/Phi-3-medium-128k-instruct",
+    "microsoft/Phi-3-mini-128k-instruct",
     device_map="cpu",
     torch_dtype="auto",
     trust_remote_code=True,
 )
 
-tokenizer = AutoTokenizer.from_pretrained("microsoft/Phi-3-medium-128k-instruct")
+tokenizer = AutoTokenizer.from_pretrained("microsoft/Phi-3-mini-128k-instruct")
 
 pipe = pipeline(
     "text-generation",
