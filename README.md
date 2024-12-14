@@ -1,5 +1,15 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/kjYrw1s4)
 
+Cade Dempsey, Daemon Lewis, Liam Heckrodt
+
+Gave Case Studies to a language model and got it to answer questions.
+
+Project submission located in final_project. Case_studies_with_answers contains all case studies with their questions, 
+and answers from the model. input.json contains all case studies with their questions, formatted for the model.
+
+
+
+
 # Knowledge Distillation For Large Language Models
 
 ## Experiments using Phi3-mini 
