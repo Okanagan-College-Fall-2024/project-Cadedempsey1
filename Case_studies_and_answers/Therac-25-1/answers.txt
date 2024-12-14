@@ -1,0 +1,9 @@
+1. The errors in a medical device should be the responsibility of the entire development team, including the designers, engineers, programmers, testers, and the organization as a whole. Accountability should also extend to regulatory bodies that approve and oversee the use of such devices.
+
+2. Creators of software have a moral responsibility to anticipate and mitigate potential adverse consequences of flaws in their products. This includes conducting rigorous testing, being transparent about known limitations, and actively responding to reported issues.
+
+3. Software creators are morally required to implement robust quality assurance practices, such as comprehensive testing, peer reviews, and simulations under real-world conditions. They must also maintain clear documentation, follow established safety standards, and be willing to halt distribution when significant flaws are identified.
+
+4. FDA approval of a medical device should balance benefit and harm, ensuring the device meets rigorous safety standards without stifling innovation. While 100% safety may be unrealistic, acceptable risk levels should be clearly defined, especially for novel therapies. Special considerations should apply for vulnerable populations, emphasizing both ethical and safety concerns.
+
+5. Updated medical devices should be reviewed based on the extent of changes. Minor improvements may not require a full review, but substantial modifications or entirely new features should undergo comprehensive evaluation. This distinction ensures safety without discouraging innovation, but clear criteria must define when a full review is necessary to maintain public trust.

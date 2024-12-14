@@ -1,0 +1,75 @@
+Case Study – The FBI & Apple: Security vs. Privacy - Page 1 of 3 
+The FBI & Apple: Security vs. Privacy 
+ 
+In December 2015, the FBI attained the iPhone of one of the shooters in an ISIS-inspired terrorist 
+attack that killed 14 people in San Bernardino, California. As part of the investigation, the FBI 
+attempted to gain access to the data stored on the phone but was unable to penetrate its encryption 
+software. Lawyers for the Obama administration approached Apple for assistance with unlocking the 
+device, but negotiations soon broke down. The Justice Department then obtained a court order 
+compelling Apple to help the FBI unlock the phone. Apple CEO, Timothy Cook, publicly challenged the 
+court in an open letter, sparking an intense debate over the balance between maintaining national 
+security and protecting user privacy. 
+ 
+Apple and its supporters, including top technology companies such as Google and Facebook, made the 
+case on several fronts that the court order threatened the privacy of all individuals. First, according to 
+Apple, the order effectively required the company to write code, violating its First Amendment right to 
+free speech by forcing the company to “say” something it did not want to say. Previous court cases had 
+already established computer code as legally protected speech. Second, such a backdoor, once 
+created, could fall into the wrong hands and threaten the privacy of all iPhone owners. Finally, it would 
+set a dangerous precedent; law enforcement could repeatedly require businesses such as Apple to 
+assist in criminal investigations, effectively making technology companies an agent of government. 
+ 
+Representatives from both sides of the political aisle offered several arguments in favor of the Justice 
+Department’s efforts and against Apple’s stance. Their central claim was that the U.S. legal system 
+establishes constraints on the government’s access to private information which prevent abuse of 
+search and surveillance powers. At the same time, the law still allows authorities to gain access to 
+information that facilitates prevention and prosecution of criminal activities, from terrorism to drug 
+trafficking to child pornography. Critics of Apple also rejected the slippery slope argument on the 
+grounds that, if Apple cooperated, it could safeguard the code it created and keep it out of the hands 
+of others, including bad actors such as terrorists or criminal groups. Moreover, Apple was accused of 
+being too interested in protecting its brand, and even unpatriotic for refusing to comply with the court 
+order. 
+ 
+Ultimately, the FBI dropped the case because it was able to circumvent the encryption on the iPhone 
+without Apple’s help. 
+ 
+ 
+ 
+ 
+
+ 
+Case Study – The FBI & Apple: Security vs. Privacy - Page 2 of 3 
+Resources:
+ 
+Apple Fights Order to Unlock San Bernardino Gunman’s iPhone 
+http://www.nytimes.com/2016/02/18/technology/apple-timothy-cook-fbi-san-bernardino.html 
+ 
+How they line up on Apple vs. the FBI  
+https://www.washingtonpost.com/graphics/business/fbi-apple/ 
+ 
+Why Apple Is Right to Challenge an Order to Help the F.B.I. 
+http://www.nytimes.com/2016/02/19/opinion/why-apple-is-right-to-challenge-an-order-to-help-the-
+fbi.html 
+ 
+Apple’s Rotten Core: CEO Tim Cook’s Case for Not Aiding the FBI’s Antiterror Effort Looks Worse than 
+Ever 
+http://www.wsj.com/articles/apples-rotten-core-1456696736 
+ 
+
+ 
+Case Study – The FBI & Apple: Security vs. Privacy - Page 3 of 3 
+Obama, at South by Southwest, Calls for Law Enforcement Access in Encryption Fight 
+http://www.nytimes.com/2016/03/12/us/politics/obama-heads-to-south-by-southwest-festival-to-
+talk-about-technology.html 
+ 
+U.S. Says It Has Unlocked iPhone Without Apple 
+http://www.nytimes.com/2016/03/29/technology/apple-iphone-fbi-justice-department-
+case.html?hp&action=click&pgtype=Homepage&clickSource=story-heading&module=first-column-
+region&region=top-news&WT.nav=top-news 
+ 
+ 
+Authors: 
+Robert Moser, Ph.D. and Patrick McDonald, Ph.D. 
+Department of Government 
+College of Liberal Arts 
+The University of Texas at Austin

@@ -1,0 +1,23 @@
+Discussion Questions:
+
+1. What harms are potentially produced by the FBI’s demand that Apple help it open an iPhone?
+What harms are potentially produced by Apple’s refusal to help the FBI?
+
+2. Do you think Apple had a moral obligation to help the FBI open the iPhone in this case because
+it involved terrorism and a mass shooting? What if the case involved a different type of criminal
+activity instead, such as drug trafficking? Explain your reasoning.
+
+3. Apple argued that helping to open one iPhone would produce code that could be used to make
+private information on all iPhones vulnerable, not only to the American government but also to
+other foreign governments and criminal elements. Do you agree with Apple’s “slippery slope”
+argument? Does avoiding these harms provide adequate justification for Apple’s refusal to
+open the phone, even if it could reveal crucial information on the terrorist shooting?
+
+4. Politicians from across the political spectrum, including President Obama and Senator Ted Cruz,
+argued that technology preventing government access to information should not exist. Do you
+agree with this limit on personal privacy? Why or why not?
+
+5. Ultimately, the FBI gained access to the iPhone in question without the help of Apple. Does this
+development change your assessment of the ethical dimensions of Apple’s refusal to help the
+FBI? Why or why not? Should the FBI share information on how it opened the iPhone with
+Apple so that it can patch the vulnerability? Explain your reasoning.

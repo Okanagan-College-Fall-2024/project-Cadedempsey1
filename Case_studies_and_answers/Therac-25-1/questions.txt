@@ -1,0 +1,20 @@
+Discussion Questions:
+
+1. Who should be responsible for the errors in a medical device?
+
+2. What moral responsibility do creators of software have for the adverse consequences that flow
+from flaws in that software?
+
+3. What steps are creators of software morally required to take to minimize the risk that they will
+sell flawed software with dangerous consequences?
+
+4. What should constitute FDA approval of a medical device? Should the benefit outweigh the
+harm? Should the device be 100% safe prior to approval? Should FDA approval guidelines take
+into consideration novel therapies for protected populations such as children or patients with
+rare conditions?
+
+5. Should updated medical devices be reviewed by the FDA as a new device or as an improvement
+in an older design? If reviewed as an improvement, at what point can/should a device be
+subject to a full review process? If reviewed as a novel device, how might this effect the
+production of modified/ improved devices and the overall companies that produce medical
+devices?
